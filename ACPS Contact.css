@@ -1,0 +1,76 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: linear-gradient(white,lightblue);
+}
+
+header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+header img {
+	max-width: 100%;
+}
+
+.container p {
+	padding: 5px;
+	
+}
+
+.container p {
+	font-size: 22px;
+	font-family: Times New Roman;
+}
+
+form {
+	padding: 20px;
+	margin: 10px;
+}
+
+.container {
+	font-size: 18px;
+	padding: 10px;
+	display: block;
+	
+	
+}
+
+
+.container li {
+	font-size: 20px;
+	left: 35%;
+}
+
+
+
+.navbar-header a {
+	font-size: 30px;
+	padding: 15px 10px;
+	font-family: Times New Roman;	 
+}
+
+
+footer {
+	left: 0;
+	bottom: 0;
+	position: static;
+	width: 100%;
+	background-color: lightblue;
+	text-align: center;
+	font-size: 18px;
+	font-family: Times New Roman;
+	padding: 10px;
+}
+
+@media(max-width: 600px) {
+	body {background-image: linear-gradient(lightblue,white);}
+}
+
+@media(max-width: 600px) {
+	header{ width: 100%;}
+}
