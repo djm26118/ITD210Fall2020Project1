@@ -7,7 +7,7 @@ body {
 }
 
 header {
-	
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -18,67 +18,51 @@ header img {
 	max-width: 100%;
 }
 
-.topnav {
-	background-color: #333;
-	list-style-type: none;
-	text-align: center;
-	margin: 0;
-	padding: 0;
+.container {
+	font-size: 18px;
+	padding: 10px;
+	display: block;
+	}
 
-}	
+.container li {
+	font-size: 20px;
+	left: 35%;
+}
 
-.topnav li {
-	display: inline-block;
-	font-size: 25px;
+.navbar-header a {
+	font-size: 30px;
+	padding: 15px 10px;
 	font-family: Times New Roman;
-	padding: 20px;
-	text-decoration: none;
 }
 
-.topnav li a {
+.container h3 {
+	text-align: center;
+	padding: 10px;
+}
+
+.list-inline {
+	text-align: center;
+	text-decoration: none;
+	padding: 50px;
 	display: block;
-	color: white;
-	padding: 5px 10px;
-	text-decoration: none;
 }
 
-.topnav li a:hover {
-	background-color: blue;
+.container h3{
+	font-size: 1.5em;
+	font-family: Verdana;
 }
 
-.links {
-	margin: 0px;
+.list-inline li {
 	padding: 20px;
-	list-style-type: none;
-	
-}
-
-.links li {
-	display: block;
-	text-decoration: none;
-	margin: 105px;
-}
-
-.links li a {
-	font-size: 25px;
-	font-style: italic;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.links li a:hover {
-	color: purple; 
-	border-bottom: blue solid;
-}
-
-.links li a:active {
-	color: green;
+	margin: 20px;
+	font-size: 1.5em;
+	font-family: Verdana;
 }
 
 footer {
 	left: 0;
 	bottom: 0;
-	position: relative;
+	position: fixed;
 	width: 100%;
 	background-color: lightblue;
 	text-align: center;
@@ -96,7 +80,7 @@ footer {
 
 @media(max-width: 600px) {
 	.topnav {border: 1px solid white;}
-}	
+}
 
 @media(max-width: 600px) {
 	.topnav li {display: block;

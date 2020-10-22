@@ -13,17 +13,16 @@ header {
 	width: 50%;
 }
 
-h1 {
-	padding: 70px 0;
-	text-align: center;
-	font-size: 22px;
-	font-family: Arial;
+
+header img {
+	max-width: 100%;
 }
 
-.container h1 {
-	font-family: Times New Roman;
-	font-size: 25px;
-}
+.container {
+	font-size: 18px;
+	padding: 10px;
+	display: block;
+	}
 
 .container li {
 	font-size: 20px;
@@ -36,22 +35,14 @@ h1 {
 	font-family: Times New Roman;
 }
 
-header img {
-	max-width: 100%;
+.jumbotron {
+	background: none;
 }
 
-.container {
-	font-size: 18px;
-	padding: 10px;
-	display: block;
-	}
-
-
-footer {
-	text-align: center;
-	font-size: 18px;
+.jumbotron h1 {
+	font-size: 4em;
 	font-family: Times New Roman;
-	padding: 5px;
+	font-style: italic;
 }
 
 .carousel-indicators li {
@@ -66,7 +57,13 @@ footer {
 	padding: 10px;
 }
 
-
-@media(max-width: 600px) {
-	header{ width: 100%;}
+footer {
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	background-color: lightblue;
+	text-align: center;
+	font-size: 18px;
+	font-family: Times New Roman;
 }
